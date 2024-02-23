@@ -3,9 +3,34 @@
     "name": "TelaLogin",
     "slug": "TelaLogin",
     "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "/Users/camilanaldi/Documents/ADS/3semestre/DM/TelaLogin/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "/Users/camilanaldi/Documents/ADS/3semestre/DM/TelaLogin/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
     "assetBundlePatterns": [
       "**/*"
-    ]
-  },
-  "name": "TelaLogin"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "/Users/camilanaldi/Documents/ADS/3semestre/DM/TelaLogin/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.telaloginkaue"
+    },
+    "web": {
+      "favicon": "/Users/camilanaldi/Documents/ADS/3semestre/DM/TelaLogin/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "06006dc7-685e-43e2-bdd6-2ed4f91072d4"
+      }
+    }
+  }
 }

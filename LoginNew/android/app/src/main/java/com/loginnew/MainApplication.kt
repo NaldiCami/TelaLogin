@@ -1,4 +1,4 @@
-package com.telalogin
+package com.loginnew
 
 import android.app.Application
 import android.content.res.Configuration
